@@ -1,0 +1,11 @@
+Ejemplos correctos:
+5 + 7
+10 + 20
+42 + 8
+3 + 8 + 15
+
+Ejemplos incorrectos:
+5 +
++ 4
+hola + 4
+7 7 +
