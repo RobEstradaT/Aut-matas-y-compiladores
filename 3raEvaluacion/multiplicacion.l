@@ -1,7 +1,7 @@
 %{
     #include <stdio.h>
     #include <stdlib.h>
-    #include "calculator.tab.h"
+    #include "multiplicacion.tab.h"
     extern YYSTYPE yylval;
 %}
 
@@ -18,7 +18,4 @@ int yywrap(void)
     return 1;
 }
 
-int yyerror(const char *s) {
-    fprintf(stderr, "Error de Sintaxis! - %s\n", s);
-    return 0;
-}
+

@@ -22,7 +22,7 @@ statement:
     ;
 
 expression:
-    NUMBER               { $$ = $1; printf("número: %d\n", $$); }
+    NUM               { $$ = $1; printf("número: %d\n", $$); }
     | expression MULT NUM { $$ = $1 * $3; printf("multiplicacion: %d\n", $$); }
     ;
 
